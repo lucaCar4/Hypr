@@ -1,0 +1,5 @@
+(include "widgets/clock/clock.yuck")
+
+(defwidget desktop []
+    (box :orientation "v" :space-evenly "false" :spacing "3"
+        (desktop_clock)))
