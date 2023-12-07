@@ -1,7 +1,7 @@
 #!/bin/bash
 VAR=$(pamixer --get-mute);
-LOGO="󰤽";
-LOGO_MUTE="󱆶"
+LOGO="";
+LOGO_MUTE="󰖁"
 logo () {
     if [[ ${VAR} == "false" ]] ; then
         echo ${LOGO};

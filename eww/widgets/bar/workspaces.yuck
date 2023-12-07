@@ -13,17 +13,17 @@
     )
     (eventbox
       (box :class "module" :space-evenly "false" :orientation "h" :spacing "3"
-      (button :class "workspace_btn" :onclick "kitty"
-        (label :text " " :class "workspace_label"))
+      (button :class "workspace_btn" :onclick "google-chrome-stable"
+        (label :text "" :class "workspace_label"))
       (button :class "workspace_btn" :onclick "firefox"
         (label :text " " :class "workspace_label"))
-      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 3"
-        (label :text " " :class "workspace_label"))
-      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 4"
-        (label :text " " :class "workspace_label"))
+      (button :class "workspace_btn" :onclick "blueberry"
+        (label :text "󰂯" :class "workspace_label"))
+      (button :class "workspace_btn" :onclick "arduino-ide"
+        (label :text "󰂯" :class "workspace_label"))
       (button :class "workspace_btn" :onclick "/home/luca/.config/eww/scripts/workspaces/nmtui.sh"
         (label :text " " :class "workspace_label"))
-      (button :class "workspace_btn" :onclick ""
+      (button :class "workspace_btn" :onclick "gparted"
         (label :text "󰍛 " :class "workspace_label"))
       (button :class "workspace_btn" :onclick "code"
         (label :text "󰨞" :class "workspace_label"))))
